@@ -1,97 +1,97 @@
-_**README file is typically included in the repository to give an overview of the project. README template ensures that the repository is well-documented, making it easier for others to understand, use and contribute to the project.**_
+# Modelo de Machine Learnig para medir calidad del agua.
 
-_**Please note that the project README template can be customized to better fit the specific requirements of your project and course. Consult with your teaching staff to ensure that your README file meets all necessary guidelines and expectations.**_
+## Tabla de contenidos
 
----
+- [Introducción](#introducción)
+- [Definición del Problema](#Definición-del-problema)
+- [Recolección de Datos](#recolección-de-datos)
+- [Limpieza y Preparación de Datos](#impieza-y-Preparación-de-Datos)
+- [Análisis Exploratorio de Datos](#Análisis-Exploratorio-de-Datos)
+- [Ingeniería de Características](#Ingeniería-de-Características)
+- [Construcción y Evaluación de Modelos](#Construcción-y-Evaluación-de-Modelos)
+- [Visualización de Datos y Dashboards](#isualización-de-Datos-y-Dashboards)
+- [Resultados y Discusión](#Resultados-y-Discusión)
+- [Conclusión](#Conclusión)
+- [Future Work](#Future-Work)
+- [Instalación](#Instalación)
+- [Uso](#Uso)
+- [Contribuyendo](#Contribuyendo)
+- [Licencia](#Licencia)
 
-# Project Title
+## Introducción
 
-## Table of Contents
+Proporcione una breve descripción general del proyecto, incluidos su propósito y objetivos.
 
-- [Introduction](#introduction)
-- [Problem Statement](#problem-statement)
-- [Data Collection](#data-collection)
-- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Feature Engineering](#feature-engineering)
-- [Model Building and Evaluation](#model-building-and-evaluation)
-- [Data Visualization and Dashboard](#data-visualization-and-dashboard)
-- [Results and Discussion](#results-and-discussion)
-- [Conclusion](#conclusion)
-- [Future Work](#future-work)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Definición del Problema
 
-## Introduction
+Describa el problema o la pregunta de investigación que el proyecto pretende abordar.
 
-Provide a brief overview of the project, including its purpose and objectives.
+## Recolección de Datos
 
-## Problem Statement
+Explique los conjuntos de datos utilizados, incluidas las fuentes y los métodos de recopilación de datos.
 
-Describe the problem or research question the project aims to address.
+| Feature         | Description                                      | Units         |
+| --------------- | ------------------------------------------------ | ------------- |
+| pH              | pH of water                                      | dimensionless |
+| Hardness        | Capacity of water to precipitate soap            | mg/L          |
+| Solids          | Total dissolved solids                           | ppm           |
+| Chloramines     | Amount of Chloramines                            | ppm           |
+| Sulfate         | Amount of Sulfates dissolved                     | mg/L          |
+| Conductivity    | Electrical conductivity of water                 | μS/cm         |
+| Organic_carbon  | Amount of organic carbon                         | ppm           |
+| Trihalomethanes | Amount of Trihalomethanes                        | μg/L          |
+| Turbidity       | Measure of light emitting property of water      | NTU           |
+| Potability      | Indicates if water is safe for human consumption | boolean       |
 
-## Data Collection
+## Librerías
 
-Explain the dataset(s) used, including sources and methods of data collection.
+<li>pandas
+<li>matplotlib
+<li>seaborn
+<li>plotly
+<li>scikit-learn
+<li>xgboost
+  
+## Algoritmos
+<li>Logistic Regression
+<li>K Nearest Neighbours
+<li>Support Vector Machine
+<li>Decision Tree
+<li>Random Forest
+<li>XGBoost
 
-## Data Cleaning and Preparation
+## Limpieza y Preparación de Datos
 
-Summarize the steps taken to clean and preprocess the data.
+![alt text](<Calidad del Agua/Imagenes/Valores-nulos.png>)
 
-## Exploratory Data Analysis
+![alt text](<Calidad del Agua/Imagenes/Comparacion-de-densidades-de-probabilidad-del-pH.png>)
 
-Highlight key findings from the initial data exploration, including visualizations.
+## Análisis Exploratorio de Datos
 
-## Feature Engineering
+Destaque los hallazgos clave de la exploración inicial de datos, incluidas las visualizaciones.
 
-Describe the process of creating new features and any feature selection techniques used.
+## Ingeniería de Características
 
-## Model Building and Evaluation
+Describa el proceso de creación de nuevas características y cualquier técnica de selección de características utilizada.
 
-Outline the models used, training and testing processes and evaluation metrics.
+## Construcción y Evaluación de Modelos
 
-## Data Visualization and Dashboard
+Describa los modelos utilizados, los procesos de entrenamiento y prueba y las métricas de evaluación.
 
-Explain the visualizations and dashboards created, including their purpose and how they aid in decision-making.
+## Visualización de Datos y Dashboards
 
-## Results and Discussion
+Explique las visualizaciones y los dashboards creados, incluido su propósito y cómo ayudan a la toma de decisiones.
 
-Summarize the main findings and their implications.
+## Resultados y Discusión
 
-## Conclusion
+Resuma los principales hallazgos y sus implicaciones.
 
-Recap the project's achievements and lessons learned.
+## Conclusión
 
-## Future Work
+Recapitule los logros del proyecto y las lecciones aprendidas.
 
-Suggest potential improvements and further research areas.
+## Trabajo Futuro
 
-## Installation
+Sugiera posibles mejoras y áreas de investigación adicionales.
 
-Provide instructions on how to set up the project locally, including dependencies and environment setup.
-
-```bash
-# Example
-git clone https://github.com/username/repository.git
-cd repository
-pip install -r requirements.txt
-```
-
-## Usage
-
-Explain how to use the project, including any scripts or notebooks.
-
-```bash
-# Example
-python script.py
-```
-
-## Contributing
-
-Outline guidelines for contributing to the project.
-
-## License
-
-Include the project's license information.
+## Licencia
