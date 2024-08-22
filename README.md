@@ -20,11 +20,7 @@
 
 ## Introducción
 
-Proporcione una breve descripción general del proyecto, incluidos su propósito y objetivos.
-
 ## Definición del Problema
-
-Describa el problema o la pregunta de investigación que el proyecto pretende abordar.
 
 ## Recolección de Datos
 
@@ -64,11 +60,27 @@ Explique los conjuntos de datos utilizados, incluidas las fuentes y los métodos
 
 ![alt text](<Calidad del Agua/Imagenes/Valores-nulos.png>)
 
+- Hay 491 valores nulos en la columna 'ph', lo que significa un 17.63% de los datos
+- Hay 781 valores nulos en la columna 'Sulfate', lo que significa un 31.30% de los datos
+- Hay 162 valores nulos en la columna 'Trihalomethanes', lo que significa un 5.20% de los datos
+
 ![alt text](<Calidad del Agua/Imagenes/Comparacion-de-densidades-de-probabilidad-del-pH.png>)
+
+_El gráfico muestra que rellenar los valores faltantes con la media puede alterar la distribución original de los datos, especialmente en las colas._
+
+![alt text](<Calidad del Agua/Imagenes/relleno-cuadratico.png>)
+
+_La gráfica sugiere que el método de interpolación cuadrática ha sido exitoso en preservar las características principales de la distribución del pH._
 
 ## Análisis Exploratorio de Datos
 
-Destaque los hallazgos clave de la exploración inicial de datos, incluidas las visualizaciones.
+![alt text](<Calidad del Agua/Imagenes/matriz-de-correlacion.png>)
+
+### Análisis de la matriz de correlación
+
+- **Correlaciones débiles:** La mayoría de las variables presentan correlaciones débiles, lo que indica que no existe una relación lineal fuerte entre ellas.
+- **Correlaciones moderadas:** Algunas variables, como 'Hardness' y 'Solids', muestran una correlación positiva moderada, sugiriendo una relación directa.
+- **Posibles relaciones inversas:** La potabilidad parece estar relacionada negativamente con variables como 'Sulfate_cuadratica' y 'ph_cuadratica'.
 
 ## Ingeniería de Características
 
@@ -78,20 +90,24 @@ Describa el proceso de creación de nuevas características y cualquier técnica
 
 Describa los modelos utilizados, los procesos de entrenamiento y prueba y las métricas de evaluación.
 
-## Visualización de Datos y Dashboards
-
-Explique las visualizaciones y los dashboards creados, incluido su propósito y cómo ayudan a la toma de decisiones.
-
 ## Resultados y Discusión
 
-Resuma los principales hallazgos y sus implicaciones.
+![alt text](<Calidad del Agua/Imagenes/gradicando-modelos.png>)
+
+_Al final, no hubo mucha variación en las capacidades predictivas. SVC fue ligeramente mejor que los otros modelos. Sin embargo, creo que el conjunto de datos es demasiado pequeño para hacer predicciones más precisas._
+
+_Se realizó una prueba eliminando la caracteristicas que presentaba originalmente un 33% de valores nulos pensando que esto podría beneficiar al modelo y mejorar las predicciones, pero, la eliminación de esta caracteristica resto precisión a los modelos._
 
 ## Conclusión
 
-Recapitule los logros del proyecto y las lecciones aprendidas.
+Aprendí mucho más sobre cada modelo mientras realizaba este proyecto. En particular, sobre sus parámetros y cómo acceder a ellos.
+
+El curso proporcionó una base sólida, pero nunca se pueden entender completamente los conceptos hasta que se aplican en muchos proyectos reales.
+
+Realizar cada modelo individualmente fue mucho más fácil que ponerlos todos en un pipeline. Al construir el pipeline, la parte más difícil es extraer los parámetros para cada modelo. Hay tanta abstracción involucrada en el pipeline que hace que sea muy difícil entender cómo acceder a los resultados.
 
 ## Trabajo Futuro
 
-Sugiera posibles mejoras y áreas de investigación adicionales.
+Si continuara con este conjunto de datos en particular, probaría el pipeline en un conjunto más grande de caracteristicas o algunas caracteristicas nuevas que permitan que el porcentaje de acierto aumente.
 
 ## Licencia
