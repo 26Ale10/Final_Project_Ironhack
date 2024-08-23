@@ -5,6 +5,7 @@
 - [Introducción](#introducción)
 - [Definición del Problema](#Definición-del-problema)
 - [Recolección de Datos](#recolección-de-datos)
+- [Herramientas](#herramientas)
 - [Librerías](#librerías)
 - [Algoritmos](#algoritmos)
 - [Limpieza y Preparación de Datos](#limpieza-y-Preparación-de-Datos)
@@ -38,22 +39,25 @@ Se cuenta con un conjunto de datos que describe diversas características del ag
 | Turbidity       | Measure of light emitting property of water      | NTU           |
 | Potability      | Indicates if water is safe for human consumption | boolean       |
 
-## Librerías
+### Herramientas
+
+<li>Python 3.10.12
+<li>Jupyter notebook
+
+### Librerias
 
 <li>pandas
 <li>matplotlib
 <li>seaborn
 <li>plotly
 <li>scikit-learn
-<li>xgboost
   
-## Algoritmos
+### Algoritmos
 <li>Logistic Regression
 <li>K Nearest Neighbours
 <li>Support Vector Machine
 <li>Decision Tree
 <li>Random Forest
-<li>XGBoost
 
 ## Limpieza y Preparación de Datos
 
