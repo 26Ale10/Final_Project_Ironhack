@@ -108,6 +108,6 @@ Realizar cada modelo individualmente fue mucho más fácil que ponerlos todos en
 
 ## Trabajo Futuro
 
-Si continuara con este conjunto de datos en particular, probaría el pipeline en un conjunto más grande de caracteristicas o algunas caracteristicas nuevas que permitan que el porcentaje de acierto aumente.
+Si continuara con este conjunto de datos en particular, probaría el pipeline en un conjunto más grande de caracteristicas o algunas caracteristicas nuevas que permitan que el porcentaje de acierto aumente. Aunque teniendo en cuenta el resultado de todos los modelos tambien se podria concluir que los datos no son reales. Esta idea se podria comprobar con un EDA mas profundo o entendiendo mejor el campo profesional.
 
 ## Licencia
