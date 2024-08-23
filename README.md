@@ -39,12 +39,12 @@ Se cuenta con un conjunto de datos que describe diversas características del ag
 | Turbidity       | Measure of light emitting property of water      | NTU           |
 | Potability      | Indicates if water is safe for human consumption | boolean       |
 
-### Herramientas
+## Herramientas
 
 <li>Python 3.10.12
 <li>Jupyter notebook
 
-### Librerias
+## Librerias
 
 <li>pandas
 <li>matplotlib
@@ -52,7 +52,7 @@ Se cuenta con un conjunto de datos que describe diversas características del ag
 <li>plotly
 <li>scikit-learn
   
-### Algoritmos
+## Algoritmos
 <li>Logistic Regression
 <li>K Nearest Neighbours
 <li>Support Vector Machine
