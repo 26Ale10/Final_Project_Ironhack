@@ -7,7 +7,7 @@
 - [Recolección de Datos](#recolección-de-datos)
 - [Librerías](#librerías)
 - [Algoritmos](#algoritmos)
-- [Limpieza y Preparación de Datos](#impieza-y-Preparación-de-Datos)
+- [Limpieza y Preparación de Datos](#limpieza-y-Preparación-de-Datos)
 - [Análisis Exploratorio de Datos](#Análisis-Exploratorio-de-Datos)
 - [Construcción y Evaluación de Modelos](#Construcción-y-Evaluación-de-Modelos)
 - [Resultados y Discusión](#resultados-y-discusión)
@@ -73,9 +73,15 @@ _La gráfica sugiere que el método de interpolación cuadrática ha sido exitos
 
 ## Análisis Exploratorio de Datos
 
-![alt text](<Calidad del Agua/Imagenes/matriz-de-correlacion.png>)
+![alt text](<Calidad del Agua/Imagenes/catplot-chloramines-potability.png>) ![alt text](<Calidad del Agua/Imagenes/catplot-hardness-potability.png>) ![alt text](<Calidad del Agua/Imagenes/catplot-organic-carbon-potability.png>)
+
+_Si el agua es potable o no, la tendencia de cada característica suele ser la misma._
+
+![alt text](<Calidad del Agua/Imagenes/pie-chart.png>)
 
 ### Análisis de la matriz de correlación
+
+![alt text](<Calidad del Agua/Imagenes/matriz-de-correlacion.png>)
 
 - **Correlaciones débiles:** La mayoría de las variables presentan correlaciones débiles, lo que indica que no existe una relación lineal fuerte entre ellas.
 - **Correlaciones moderadas:** Algunas variables, como 'Hardness' y 'Solids', muestran una correlación positiva moderada, sugiriendo una relación directa.
@@ -115,7 +121,6 @@ _No hubo mucha variación en las capacidades predictivas. SVC fue ligeramente me
 - **Matrices de confusión del SVC**
 
 ![alt text](<Calidad del Agua/Imagenes/conf_SVC_train.png>)
-
 ![alt text](<Calidad del Agua/Imagenes/conf_SVC_test.png>)
 
 ### Ejes:
