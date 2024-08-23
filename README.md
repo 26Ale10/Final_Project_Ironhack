@@ -108,7 +108,7 @@ El código que se diseño define una serie de pipelines para diferentes modelos 
 
 ## Resultados y Discusión
 
-![alt text](<Calidad del Agua/Imagenes/gradicando-modelos.png>)
+![alt text](<Calidad del Agua/Imagenes/gradicando-modelos2.png>)
 
 _No hubo mucha variación en las capacidades predictivas. SVC fue ligeramente mejor que los otros modelos. Sin embargo, creo que el conjunto de datos es demasiado pequeño para hacer predicciones más precisas._
 
