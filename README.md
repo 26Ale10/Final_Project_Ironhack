@@ -103,12 +103,11 @@ El código que se diseño define una serie de pipelines para diferentes modelos 
 ### Pipelines definidos:
 
 - `svc_pipeline`, `knn_pipeline`, `tree_pipeline`, `random_forest`, `Logistic_regression`: Cada uno de estos pipelines representa un modelo de clasificación específico (SVC, KNN, árbol de decisión, bosque aleatorio y regresión logística, respectivamente).
-- `preprocess`: Este es un transformador (probablemente definido en otra parte del código) que se aplica a los datos antes de entrenar el modelo. Podría incluir tareas como escalamiento, codificación de variables categóricas, selección de características, etc.
+- `preprocess`: Este es un transformador que se aplica a los datos antes de entrenar el modelo. Podría incluir tareas como escalamiento, codificación de variables categóricas, selección de características, etc.
 
 ### Grilla de parámetros:
 
 - `param_grid`: Esta lista de diccionarios define los diferentes valores que se probarán para cada hiperparámetro de los modelos. Por ejemplo, `'svc__C': [0.1, 1, 10]` significa que se probarán tres valores diferentes para el parámetro de regularización C del modelo SVC.
-- Los nombres como `'svc__C'` indican que se está especificando un parámetro del estimador `svc` dentro del pipeline.
 
 ### Resumen de lo que hace el código
 
