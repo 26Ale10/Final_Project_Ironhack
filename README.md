@@ -156,8 +156,6 @@ Al realizar este proyecto, he podido experimentear cada modelo, especialmente en
 
 Si bien el curso proporcionó una base sólida, la verdadera comprensión de todo estos conceptos se logra a través de la aplicación práctica en múltiples proyectos reales.
 
-**Construyendo pipelines:**
+**Pipelines:**
 
 La creación de modelos individuales resultó ser más sencilla que la construcción de pipelines. La principal dificultad radica en **extraer los parámetros** de cada modelo dentro del pipeline.
-
-## Uso
